@@ -20,3 +20,8 @@ oghost > ~/exports.json
 
 
 This will output posts and tags into exports.json.
+
+# Acknowledgements
+This is originally published by @villadora and customized by @kuropen to prevent this script from generating article with too long slug and ensure the converted articles can be imported.
+This repository is here to present the solution for the problem.
+
