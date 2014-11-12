@@ -1,0 +1,49 @@
+{
+  "name": "oghost",
+  "version": "0.1.0",
+  "description": "Oh ghost, convert markdown in octopress/hexo to ghost exports.json",
+  "main": "./index.js",
+  "bin": {
+    "oghost": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:villadora/oghost.git"
+  },
+  "bugs": {
+    "url": "https://github.com/villadora/oghost/issues"
+  },
+  "keywords": [
+    "ghost",
+    "octopress"
+  ],
+  "dependencies": {
+    "async": "^0.9.0",
+    "js-yaml": "^3.0.2",
+    "moment": "^2.7.0",
+    "underscore": "^1.6.0",
+    "yaml": "^0.2.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0",
+    "jshint": "^2.5.1"
+  },
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "villa.gao",
+    "email": "jky239@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "license": "MIT",
+  "readme": "# Oh Ghost\n\nThis tools convert markdown format in hexo/octopress into json that you can import in http://<host>/ghost/debug\n\n\n## Install\n\n```bash\nnpm install oghost -g\n```\n\n\n## Usage\n\nIn `_posts/` folder, run:\n\n```bash\noghost > ~/exports.json\n```\n\n\nThis will output posts and tags into exports.json.\n",
+  "homepage": "https://github.com/villadora/oghost",
+  "_id": "oghost@0.1.0",
+  "dist": {
+    "shasum": "b4b2cb2cf2dc819fec38ed9fac0d93b347a9dd4c"
+  },
+  "_from": "oghost@",
+  "_resolved": "https://registry.npmjs.org/oghost/-/oghost-0.1.0.tgz"
+}
