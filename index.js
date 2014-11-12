@@ -106,6 +106,9 @@ function Post(file, raw) {
   this.slug = file.substring(11, file.length - 9);
   Post.id = Post.id || 100;
   this.id = ++Post.id;
+  if (this.slug.length > 150) {
+    this.slug = '' + this.id;
+  }
 }
 
 Post.prototype.toJSON = function() {
