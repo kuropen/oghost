@@ -103,7 +103,7 @@ function Post(file, raw) {
 
   this.tags = tags;
 
-  this.slug = file.substring(11, file.length - 9);
+  this.slug = file.split('.')[0].substring(11);
   Post.id = Post.id || 100;
   this.id = ++Post.id;
   if (this.slug.length > 150) {
